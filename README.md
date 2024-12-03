@@ -1,13 +1,13 @@
 # **User Journey Prediction Project**
 
-This project leverages user behavioral data to predict whether the last checkpoint of a user's journey is the **Checkout** page. The analysis uses machine learning techniques, primarily logistic regression, to understand patterns in user behavior and improve user experience.
+This project leverages user behavioural data to predict whether the last checkpoint of a user's journey is the **Checkout** page. The analysis uses machine learning techniques, primarily logistic regression, to understand patterns in user behavior and improve user experience.
 
 ---
 
 ## **Project Structure**
 
 ### **1. Data**
-The dataset contains information about user journeys on a website. Key columns include:
+The dataset obtained from https://learn.365datascience.com/projects/user-journey-analysis-in-python/ contains information about user journeys on a website. Key columns include:
 - **`journey_length`**: Total number of pages visited in a user's journey.
 - **`Homepage`**: Count or presence of visits to the Homepage.
 - **`Pricing`**: Count or presence of visits to the Pricing page.
@@ -48,13 +48,13 @@ The model's performance is evaluated using:
    - The Logistic Regression model is trained on the training data.
 
 3. **Model Evaluation**:
-   - The model is tested on unseen data (test set) and evaluated using metrics and visualizations:
+   - The model is tested on unseen data (test set) and evaluated using metrics and visualisations:
      - **ROC Curve**: Evaluates overall classification performance.
      - **Precision-Recall Curve**: Highlights the balance between false positives and false negatives.
 
 4. **Insights**:
    - **Features**: The model identifies key factors influencing whether a user's last checkpoint is the **Checkout** page.
-   - **Optimization Opportunities**: The results can guide UX improvements, reduce drop-offs, and optimize navigation flows.
+   - **Optimisation Opportunities**: The results can guide UX improvements, reduce drop-offs, and optimise navigation flows.
 
 ---
 
