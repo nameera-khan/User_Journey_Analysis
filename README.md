@@ -1,4 +1,4 @@
-# **User Journey Prediction Project**
+# **User Journey Analysis**
 
 This project leverages user behavioural data to predict whether the last checkpoint of a user's journey is the **Checkout** page. The analysis uses machine learning techniques, primarily logistic regression, to understand patterns in user behavior and improve user experience.
 
